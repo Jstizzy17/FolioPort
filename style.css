@@ -1,0 +1,11 @@
+.navbar-brand img{
+    height:45px;
+}
+.navbar-brand{
+    padding:0px;
+}
+body{
+    background-image:url("images/dribble_js_logo.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
