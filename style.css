@@ -9,3 +9,7 @@ body{
     background-repeat: none;
     background-size: cover;
 }
+
+#contact {
+    width: 500px;
+}
