@@ -1,6 +1,6 @@
 .navbar-default{
     border:none;
-    background-image: none;
+    background: none;
 }
 
 .navbar-brand img{
@@ -36,10 +36,19 @@ body{
 }
 .heady-head{
     color:white;
-    margin-left:450px;
+    text-align:center;
     font-weight:bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .form-boop{
     margin: 0;
+}
+
+.blimp-text {
+    color: white;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
