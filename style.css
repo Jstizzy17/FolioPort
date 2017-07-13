@@ -1,6 +1,13 @@
+.navbar-default{
+    border:none;
+    background-image: none;
+}
+
 .navbar-brand img{
     height:45px;
+     
 }
+
 .navbar-brand{
     padding:0px;
 }
@@ -11,10 +18,29 @@ body{
 }
 
 #contact {
-    width: 500px;
+    width:1000px ;
 }
 
 .about-cards{
 
     color: white;
+    margin-left: 150px;
+    text-size:100px;
+    font-size:25px;
+    font-weight:bold ;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    margin-bottom: 50px;
+    margin-left:250px;
+}
+.heady-head{
+    color:white;
+    margin-left:450px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-boop{
+    margin: 0;
 }

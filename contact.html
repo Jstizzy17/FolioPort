@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Josiah's Port <span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li class="dropdown">
                         <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -61,7 +61,7 @@
                             <li role="separator" class="divider"></li>
                             <li><a href="#">One more separated link</a></li>
                         </ul>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
                     </li>
                 </ul>
             </div>
@@ -69,11 +69,12 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <form id="contact" class="form-horizontal" onsubmit="alertMe()">
+     <h1 class="heady-head">Contact Josiah!</h1>
+    <form id="contact" class="form-horizontal" name="ContactForm" onsubmit="submitContactForm()">
         <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <input type="email" name="Email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
         </div>
         <div class="form-group">
@@ -81,10 +82,18 @@
             <div class="col-sm-10">
                 <input type="Question" class="form-control" id="inputQuestion3" placeholder="Question">
             </div>
-            
         </div>
         <div class="form-group">
-
+            <label for="inputName3" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+                <input type="Name" class="form-control" id="inputName3" placeholder="Name">
+            </div>
+        </div>
+              <div class="form-group">
+            <label for="inputPhoneNumber3" class="col-sm-2 control-label">Phone Number</label>
+            <div class="col-sm-10">
+                <input type="PhoneNumber" class="form-control" id="inputName3" placeholder="Phone Number">
+            </div>
         </div>
         </div>
         <div class="form-group">
@@ -93,7 +102,7 @@
             </div>
         </div>
     </form>
-    <p class="about-cards">You can follow me on Instagram at _thegreatest._ <br> or add me on snapchat at Rns_00 <br> if you have any other questions or you just wanna check out my life! </p>
+    <p class="about-cards">You can follow me on Instagram at _thegreatest._ or add me on <br> snapchat at Rns_00 if you have any other questions or you just wanna check out my life! </p>
 </body>
 
 
