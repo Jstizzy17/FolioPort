@@ -1,0 +1,19 @@
+{
+  "name": "name(folioport)",
+  "version": "1.0.0",
+  "description": "My porto de folio",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jstizzy17/FolioPort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jstizzy17/FolioPort/issues"
+  },
+  "homepage": "https://github.com/Jstizzy17/FolioPort#readme"
+}
