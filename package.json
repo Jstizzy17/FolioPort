@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Jstizzy17/FolioPort/issues"
   },
-  "homepage": "https://github.com/Jstizzy17/FolioPort#readme"
+  "homepage": "https://github.com/Jstizzy17/FolioPort#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }
