@@ -1,0 +1,51 @@
+#myCarousel {
+  height: 500px; }
+
+#myCarousel img {
+  height: 450px;
+  display: block;
+  margin: 0 auto; }
+
+.blimp-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold; }
+
+iframe {
+  display: block;
+  margin: 0 auto; }
+
+#contact {
+  width: 1000px; }
+
+.about-cards {
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.form-group {
+  margin-bottom: 50px;
+  margin-left: 250px; }
+
+.heady-head {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.navbar-default {
+  border: none;
+  background: none; }
+
+.navbar-brand img {
+  height: 45px; }
+
+.navbar-brand {
+  padding: 0px; }
+
+body {
+  background-image: url("images/back_ground.jpg");
+  background-repeat: none;
+  background-size: cover; }
